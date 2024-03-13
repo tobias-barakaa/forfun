@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>My first PHP Website</title>
+</head>
+<body>
+<h2>Login Page</h2>
+<header>
+    <h1>
+        <a href="{% url 'post' %}">Home</a>
+    </h1>
+</header>
+<div>
+    {% block content %}
+    {% endblock %}
+</div>
+</body>
+</html>
