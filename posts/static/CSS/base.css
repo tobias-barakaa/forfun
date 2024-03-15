@@ -1,0 +1,13 @@
+header h1 a{
+  font-size: 2em;
+  color: #000;
+
+}
+
+.post-entry{
+    width: 80%; /* Set the width to 80% of its containing element */
+    height: 1px; /* Set the height of the line */
+    background-color: black; /* Set the color of the line */
+    margin: 10px auto; /* Center the line horizontally and add spacing */
+  }
+  
